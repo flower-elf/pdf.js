@@ -3402,7 +3402,7 @@ const PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 let validateFileURL;
 {
-  const HOSTED_VIEWER_ORIGINS = ["null", "http://alist-org.github.io", "https://alist-org.github.io", "https://alist.nn.ci"];
+  const HOSTED_VIEWER_ORIGINS = ["null", "https://pdfreader.glaorg.top", "https://raincloud.glaorg.top", "https://localhost"];
 
   validateFileURL = function (file) {
     if (!file) {
